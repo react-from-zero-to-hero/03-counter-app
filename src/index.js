@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PrimeraApp from './components/PrimeraApp'
+import CounterApp from './components/CounterApp';
 import './index.css';
 
 const divRoot = document.querySelector('#root');
 
 ReactDOM.render( 
     <React.StrictMode>
-        <PrimeraApp saludo='Hola Mundo'/>
+        <CounterApp value={ 0 } />
     </React.StrictMode>,
     divRoot 
 );
