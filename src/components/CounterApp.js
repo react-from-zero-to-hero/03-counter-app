@@ -15,3 +15,5 @@ CounterApp.propTypes = {
 }
 
 export default CounterApp;
+
+// rafcp es un snippet
